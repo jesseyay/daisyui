@@ -44,7 +44,7 @@ const sizeValues = [
   ],
 ]
 const borderValues = [
-  ["--border", "Border Width", "All components", ["0.5px", "1px", "1.5px", "2px"]],
+  ["--border", "Border Width", "All components", ["0.5px", "1px", "1.5px", "2px", "3px", "4px"]],
 ]
 const effectValues = [
   ["--depth", "Depth Effect", "3D depth on fields & selectors", ["0", "1"]],

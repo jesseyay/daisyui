@@ -270,7 +270,7 @@
       >
         <div class="flex flex-col gap-4">
           <!-- filters -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <div class="card-body gap-4">
               <h2 class="flex items-center justify-between">
                 <span class="flex items-center gap-2 font-semibold">
@@ -367,7 +367,7 @@
           </div>
 
           <!-- calendar -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm overflow-hidden">
+          <div class="card bg-base-100 card-border card-sm overflow-hidden">
             <div class="card-body gap-4">
               <div class="border-b-base-300 grid grid-cols-7 border-b border-dashed pb-3">
                 <div class="rounded-field flex flex-col items-center px-2 py-1">
@@ -444,7 +444,7 @@
           <div>
             <div role="tablist" class="tabs tabs-lift">
               <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Tab 1" />
-              <div class="tab-content bg-base-100 border-base-300 p-6">Tab content 1</div>
+              <div class="tab-content bg-base-100 p-6">Tab content 1</div>
 
               <input
                 type="radio"
@@ -454,15 +454,15 @@
                 aria-label="Tab 2"
                 checked="checked"
               />
-              <div class="tab-content bg-base-100 border-base-300 p-6">Tab content 2</div>
+              <div class="tab-content bg-base-100 p-6">Tab content 2</div>
 
               <input type="radio" name="my_tabs_2" role="tab" class="tab" aria-label="Tab 3" />
-              <div class="tab-content bg-base-100 border-base-300 p-6">Tab content 3</div>
+              <div class="tab-content bg-base-100 p-6">Tab content 3</div>
             </div>
           </div>
 
           <!-- range -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <div class="card-body gap-4">
               <h2 class="flex items-center justify-between">
                 <span class="flex items-center gap-2 font-semibold">
@@ -494,7 +494,7 @@
           </div>
 
           <!-- product -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <figure class="p-2">
               <img
                 class="rounded-[calc(var(--radius-box)-.5rem)]"
@@ -530,7 +530,7 @@
           </div>
 
           <!-- search -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <div class="card-body gap-4">
               <div class="join">
                 <label class="join-item input-border input flex w-auto items-center gap-2">
@@ -554,8 +554,8 @@
           </div>
 
           <!-- form -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm overflow-hidden">
-            <div class="border-base-300 border-b border-dashed">
+          <div class="card bg-base-100 card-border card-sm overflow-hidden">
+            <div class=" border-b border-dashed">
               <div class="flex items-center gap-2 p-4">
                 <div class="grow">
                   <div class="flex items-center gap-2 text-sm font-medium">
@@ -637,7 +637,7 @@
         </div>
         <div class="flex flex-col gap-4">
           <!-- chart -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <div class="card-body gap-4">
               <div class="*:bg-base-content mt-4 flex h-24 items-end gap-2 *:w-full *:rounded-sm">
                 <div style="height: 10%"></div>
@@ -669,7 +669,7 @@
           </div>
 
           <!-- stat -->
-          <div class="card bg-base-100 card-border border-base-300 w-full">
+          <div class="card bg-base-100 card-border w-full">
             <div
               class="stats bg-base-100 w-full overflow-hidden shadow-[0_.1rem_.5rem_-.3rem_#0003]"
             >
@@ -701,7 +701,7 @@
           </div>
 
           <!-- list -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm">
+          <div class="card bg-base-100 card-border card-sm">
             <div class="card-body gap-4">
               <h2 class="flex items-center justify-between">
                 <span class="flex items-center gap-2 font-semibold">
@@ -758,7 +758,7 @@
           </div>
 
           <!-- stat -->
-          <div class="card bg-base-100 card-border border-base-300 w-full">
+          <div class="card bg-base-100 card-border w-full">
             <div class="stats">
               <div class="stat">
                 <div class="stat-title">
@@ -785,8 +785,8 @@
           </div>
 
           <!-- textarea -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm overflow-hidden">
-            <div class="border-base-300 border-b border-dashed">
+          <div class="card bg-base-100 card-border card-sm overflow-hidden">
+            <div class=" border-b border-dashed">
               <div class="flex items-center gap-2 p-4">
                 <div class="grow">
                   <div class="flex items-center gap-2 text-sm font-medium">
@@ -849,7 +849,7 @@
           </div>
 
           <!-- chat -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm overflow-hidden">
+          <div class="card bg-base-100 card-border card-sm overflow-hidden">
             <div class="card-body">
               <div class="chat chat-start">
                 <div class="chat-image avatar">
@@ -952,7 +952,7 @@
           </div>
 
           <!-- menu -->
-          <div class="card bg-base-100 card-border border-base-300">
+          <div class="card bg-base-100 card-border">
             <ul class="menu w-full">
               <li class="menu-title">Admin panel</li>
               <li>
@@ -1077,7 +1077,7 @@
         </div>
         <div class="flex flex-col gap-4">
           <!-- music -->
-          <div class="card bg-base-100 card-border border-base-300 card-sm overflow-hidden">
+          <div class="card bg-base-100 card-border card-sm overflow-hidden">
             <div class="card-body my-2">
               <div class="flex items-center justify-around">
                 <button class="btn btn-square btn-neutral">
@@ -1134,7 +1134,7 @@
                 <p class="text-xs opacity-50">Project Manager talking for 2 hours</p>
               </div>
             </div>
-            <div class="border-base-300 flex flex-col border-t px-6 py-4">
+            <div class=" flex flex-col border-t px-6 py-4">
               <div class="relative mt-6">
                 <div
                   class="tooltip tooltip-open absolute top-2 before:text-xs"
@@ -1490,9 +1490,7 @@
           </ul>
 
           <!-- pricing -->
-          <div
-            class="card bg-base-100 card-border border-base-300 from-base-content/5 bg-linear-to-bl to-50%"
-          >
+          <div class="card bg-base-100 card-border from-base-content/5 bg-linear-to-bl to-50%">
             <div class="flex justify-center">
               <div class="tabs tabs-box bg-base-300 m-4 inline-flex flex-nowrap">
                 <input
@@ -1590,7 +1588,7 @@
           </div>
 
           <!-- <div
-            class="bg-base-100 border-base-300 rounded-box overflow-hidden border p-1 shadow-[0_.1rem_.5rem_-.3rem_#0003] [&_#carbonads]:bg-transparent! [&_img]:[border-radius:calc(var(--radius-box)-.5rem)_calc(var(--radius-box)-1rem)_calc(var(--radius-box)-1rem)_calc(var(--radius-box)-.5rem)]!"
+            class="bg-base-100  rounded-box overflow-hidden border p-1 shadow-[0_.1rem_.5rem_-.3rem_#0003] [&_#carbonads]:bg-transparent! [&_img]:[border-radius:calc(var(--radius-box)-.5rem)_calc(var(--radius-box)-1rem)_calc(var(--radius-box)-1rem)_calc(var(--radius-box)-.5rem)]!"
           >
             <Carbon />
           </div> -->
